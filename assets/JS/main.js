@@ -21,7 +21,7 @@ proceso(url)
             <p class="text-white">Especie: ${elemento.species}</p>
             <p class="text-white">Sexo: ${elemento.gender}</p>
             <p class="text-white">Origen: ${elemento.origin.name}</p>
-            <p class="text-white">Locación: ${elemento.location.name}</p>
+            <p class="text-white">Ubicación: ${elemento.location.name}</p>
             `
             elContenido.appendChild(items)
         })
